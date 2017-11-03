@@ -31,6 +31,9 @@ void obmen(double * & mass, unsigned int size) {
 			if (mass[j] > mass[j + 1]) {
 				swap(mass[j], mass[j + 1]);
 			}
+			else {
+				break;
+			}
 		}
 	}
 }
